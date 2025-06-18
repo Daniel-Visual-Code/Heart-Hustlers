@@ -1,4 +1,14 @@
 
+.up1{
+    position: absolute;
+        margin-left: 3%;
+        margin-top: 0%;
+        background-color: red;
+        width: 400px;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 1;
+    }
 .backround{
     background-color: rgb(255, 255, 255);
     position: fixed;
@@ -19,23 +29,29 @@ body{
 .Play{
     position: absolute;
     top: 1060px;
-    left: 300px;
+    right: 40px;
     border: black;
     border-radius: 50px;
-    height: 460px;
-    width: 720px;
     box-sizing: border-box;
     border-width: 15px;
   transition: transform 0.8s ease-in-out;
   z-index: 1;
-  overflow: hidden;
   object-fit: cover;
 }
-.Play:hover{
+#Top{
+    height: 460px;
+    width: 720px;
+    overflow: hidden;
+    position: relative;
+
+}
+#Top:hover .Play{
     transform: scale(1.2);
     overflow: hidden;    
     z-index: 1;
     object-fit: cover;
+    height: 460px;
+    width: 720px;
 }
 
 video:hover{
@@ -88,20 +104,24 @@ header{
 .nav-links{
         list-style: none;
         display: flex;
-        gap: 3.5rem;
-        scale: 3;
-        margin-left: 15%;
-        margin-top: 10%;
+        gap: 1.5rem;
+        scale: 2.5;
+        margin-left: -6%;
+        margin-top: 8%;
         box-sizing: border-box();
        
 }
 a{
     color: black;
-
+    background-color: firebrick;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px groove grey;
     transition: text-shadow 0.4s ease-in-out;
+     transition: color 0.4s ease-in-out;
 }
 a:hover{
-    color: rgb(25, 25, 25);
+    color: rgb(41, 41, 41);
     text-shadow: 0 2px 3px rgb(77, 76, 76);   
 }
 #people{
@@ -112,13 +132,13 @@ a:hover{
     position: absolute;
     left: 40%;
     scale: 3;
-    margin-top: 150px;
+    margin-top: -16%;
     font-family: Georgia', Times New Roman, Times, serif;
 }
 .section2{
 right: 40%;
 position: absolute;
-margin-top: 205px;
+margin-top: -20%;
 scale: 3;
  font-family: 'Georgia', Times New Roman, Times, serif
 }
@@ -127,4 +147,41 @@ img {
  margin: 0;
   padding: 0;
   border: 0;
+}
+.backround{
+     position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+.About{
+    list-style: none;
+    position: absolute;
+    top: 700%;
+    display: flex;
+    background-color: grey;
+    border-radius: 10px;
+    width: 99%;
+    color: rgb(201, 174, 55);
+}
+.Daniel{
+    text-align: left;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.Shreya{
+    text-align: right;
+    margin-right: 115px;
+    margin-left: 115px;
+}
+.Tyirell{
+    text-align: center;
+    margin-right: 115px;
+    margin-left: 115px;
+}
+.Jamariyon{
+    text-align: center;
+    margin-left: 115px;
+    margin-right: 115px;
 }

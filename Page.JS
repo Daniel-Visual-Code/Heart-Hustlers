@@ -1,34 +1,14 @@
-'use strict';
+let lastScrollY = window.scrollY;
+const backround = document.getElementById('backround');
 
-const switcher = document.querySelector('.btn')
-
-window.onscroll = function() {
-  scrollFunctionUp();
-};
-
-function scrollFunctionUp() {
-  var header = document.getElementById("Top");
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    header.classList.add("sticky");
+window.addEventListener('scroll', () => {
+  if (window.scrollY > lastScrollY) {
+    backround.style.transform = 'translateY(-30px)';
   } else {
-    header.classList.remove("sticky");
+    backround.style.transform = 'translateY(-30px)';
   }
-}
-
-
-
-
-window.onscroll = function() {
-  scrollFunctionUp();
-};
-
-function scrollFunctionUp() {
-  var header = document.getElementById("backround");
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
+  lastScrollY = window.scrollY;
+});
 }
 
 
