@@ -29,15 +29,19 @@ body{
   transition: transform 0.8s ease-in-out;
   z-index: 1;
   overflow: hidden;
-  background: ;
+  object-fit: cover;
 }
 .Play:hover{
     transform: scale(1.2);
     overflow: hidden;    
     z-index: 1;
+    object-fit: cover;
 }
+
 video:hover{
     animation-play-state: running;
+    overflow: hidden;
+    object-fit: fill;
 }
 
 .AHA{
@@ -48,8 +52,12 @@ video:hover{
     top: -5%;
     left: -4%;
     border: none; 
+    border: 0px;
+    border: white;
     transform: scale(0.55);
     z-index: 3;
+    box-shadow: none;
+    background-color: white;
 }
 
 .icon{
@@ -64,12 +72,12 @@ video:hover{
     z-index: 3;
 }
 header{
-    color: lightslategray;
+    color: rgb(255, 255, 255);
     text-align: center;
     position:absolute;
     width: 100%;
     z-index: 1;
-    text-shadow: 0 2px 3px rgb(77, 76, 76);
+    
 }
 .Quick{
     text-align: center;
@@ -87,7 +95,12 @@ header{
         box-sizing: border-box();
 }
 a{
-    color: thistle;
+    color: black;
+}
+a:hover{
+    color: rgb(25, 25, 25);
+    text-shadow: 0 2px 3px rgb(77, 76, 76);
+    
 }
 #people{
     position: absolute;
@@ -97,10 +110,19 @@ a{
     position: absolute;
     left: 40%;
     scale: 3;
+    margin-top: 150px;
+    font-family: Georgia', Times New Roman, Times, serif;
 }
 .section2{
 right: 40%;
 position: absolute;
-top: 60px;
+margin-top: 205px;
 scale: 3;
+ font-family: 'Georgia', Times New Roman, Times, serif
+}
+
+img {
+ margin: 0;
+  padding: 0;
+  border: 0;
 }
