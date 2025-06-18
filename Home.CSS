@@ -126,14 +126,14 @@ a:hover{
 }
 #people{
     position: absolute;
-    top: 1300px;
+    top: 2200px;
 }
 .section{
     position: absolute;
     left: 40%;
     scale: 3;
     margin-top: -16%;
-    font-family: Georgia', Times New Roman, Times, serif;
+    font-family: 'Georgia', Times New Roman, Times, serif;
 }
 .section2{
 right: 40%;
