@@ -58,6 +58,9 @@
         border-radius: 5px;
         z-index: 2;
     }
+
+
+
 .backround{
     background-color: rgb(255, 255, 255);
     position: fixed;
@@ -84,20 +87,21 @@ body{
     box-sizing: border-box;
     border-width: 15px;
   transition: transform 0.8s ease-in-out;
-  z-index: 1;
+  z-index: 3;
   object-fit: cover;
 }
 #Top{
     height: 460px;
     width: 720px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    z-index: 3;
 
 }
 #Top:hover .Play{
     transform: scale(1.2);
     overflow: hidden;    
-    z-index: 1;
+    z-index: 3;
     object-fit: cover;
     height: 460px;
     width: 720px;
@@ -197,6 +201,8 @@ img {
  margin: 0;
   padding: 0;
   border: 0;
+  align-items: ;
+  display: flex row;
 }
 .backround{
      position: fixed;
@@ -235,4 +241,7 @@ img {
     margin-left: 115px;
     margin-right: 115px;
 }
+
+
+
 
