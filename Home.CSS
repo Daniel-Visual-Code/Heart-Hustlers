@@ -1,13 +1,62 @@
-
 .up1{
     position: absolute;
+    margin-left: 3%;
+    margin-top: 1050px;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.up2{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 1500px;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.up3{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 1950px;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.up4{
+    position: absolute;
         margin-left: 3%;
-        margin-top: 0%;
+        margin-top: 2400px;
         background-color: red;
-        width: 400px;
+        width: 100%;
         padding: 10px;
         border-radius: 5px;
         z-index: 1;
+    }
+.up5{
+        position: absolute;
+        margin-left: 3%;
+        margin-top: 2850px;
+        background-color: rgb(70, 67, 67);
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 2;
+    }
+.up6{
+        position: absolute;
+        margin-left: 3%;
+        margin-top: 3300px;
+        background-color: rgb(21, 255, 0);
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 2;
     }
 .backround{
     background-color: rgb(255, 255, 255);
@@ -61,19 +110,20 @@ video:hover{
 }
 
 .AHA{
-    background-image: url(Something1.png);
-    width: 296px;
-    height: 191px;
+    background-image: url(AHAtxt.png);
+    width: 1280px;
+    height: 720px;
     position: fixed;
-    top: -5%;
-    left: -4%;
+    top: -49%;
+    left: -40%;
     border: none; 
     border: 0px;
     border: white;
-    transform: scale(0.55);
+    transform: scale(0.15);
     z-index: 3;
     box-shadow: none;
     background-color: white;
+    
 }
 
 .icon{
@@ -126,7 +176,7 @@ a:hover{
 }
 #people{
     position: absolute;
-    top: 2200px;
+    top: 3900px;
 }
 .section{
     position: absolute;
