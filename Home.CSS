@@ -79,16 +79,18 @@ body{
     z-index: 1;
 }
 .Play{
-    position: absolute;
+  position: absolute;
     top: 1060px;
-    right: 40px;
+    left: 300px;
     border: black;
     border-radius: 50px;
+    height: 460px;
+    width: 720px;
     box-sizing: border-box;
     border-width: 15px;
   transition: transform 0.8s ease-in-out;
   z-index: 3;
-  object-fit: cover;
+  overflow: hidden;
 }
 #Top{
     height: 460px;
@@ -96,15 +98,6 @@ body{
     overflow: hidden;
     position: absolute;
     z-index: 3;
-
-}
-#Top:hover .Play{
-    transform: scale(1.2);
-    overflow: hidden;    
-    z-index: 3;
-    object-fit: cover;
-    height: 460px;
-    width: 720px;
 }
 
 video:hover{
