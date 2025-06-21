@@ -222,12 +222,13 @@ img {
     color: rgb(201, 174, 55);
 }
 .Daniel{
-    text-align: left;
+    text-align: center;
     margin-left: 115px;
     margin-right: 115px;
+    
 }
 .Shreya{
-    text-align: right;
+    text-align: center;
     margin-right: 115px;
     margin-left: 115px;
 }
@@ -242,6 +243,15 @@ img {
     margin-right: 115px;
 }
 
+.team-img {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 15%;
+  border: 2px solid #c9ae37;
+}
 
 
 
