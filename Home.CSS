@@ -114,8 +114,8 @@ video{
 
 .AHA {
     background-image: url(AHAtxt.png);
-    width: 195px; /* Set a reasonable width for your logo */
-    height: 100px; /* Set a reasonable height for your logo */
+    width: 15%; /* Set a reasonable width for your logo */
+    height: 15%; /* Set a reasonable height for your logo */
     position: fixed;
     top: 10px;      /* Distance from the top */
     left: 10px;     /* Distance from the left */
@@ -131,8 +131,8 @@ video{
 
 .icon {
     background-image: url(logo.png);
-    width: 100px;
-    height: 100px;
+    width: 8%;
+    height: 16%;
     position: fixed;
     top: 20px;      /* Distance from the top */
     right: 20px;    /* Distance from the right */
