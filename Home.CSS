@@ -17,7 +17,6 @@
     padding: 10px;
     border-radius: 5px;
     z-index: 1;
-    length: 400px;
 }
 .up2{
     position: relative;
@@ -113,34 +112,40 @@ video{
     z-index: 3;
 }
 
-.AHA{
+.AHA {
     background-image: url(AHAtxt.png);
-    width: 1280px;
-    height: 720px;
+    width: 195px; /* Set a reasonable width for your logo */
+    height: 100px; /* Set a reasonable height for your logo */
     position: fixed;
-    top: -49%;
-    left: -40%;
-    border: none; 
-    border: 0px;
-    border: white;
-    transform: scale(0.15);
-    z-index: 3;
+    top: 10px;      /* Distance from the top */
+    left: 10px;     /* Distance from the left */
+    right: auto;    /* Ensure right is not interfering */
+    border: none;
+    transform: none; /* Remove scaling for clarity */
+    z-index: 1000;   /* Make sure it stays on top */
     box-shadow: none;
-    background-color: white;
-    
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.icon{
+.icon {
     background-image: url(logo.png);
-    width: 1312px;
-    height: 1366px;
+    width: 100px;
+    height: 100px;
     position: fixed;
-    top: -99%;
-    right: -44%;
+    top: 20px;      /* Distance from the top */
+    right: 20px;    /* Distance from the right */
+    left: auto;     /* Ensure left is not interfering */
     border: none;
-    transform: scale(0.095);
-    z-index: 3;
+    transform: none;
+    z-index: 1000;
+    box-shadow: none;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 header{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -152,19 +157,23 @@ header{
 .Quick{
     text-align: center;
     border-style: none;
-    margin-left: 50%;   
+    
 
 }
 .nav-links{
         list-style: none;
         display: flex;
         gap: 1.5rem;
-        scale: 2.5;
-        margin-left: -6%;
-        margin-top: 8%;
-        box-sizing: border-box();
-       
+        font-size: 3rem;
+        margin-left: 14%;
+        margin-top: 2%;
+        box-sizing: border-box();    
+        left: auto;     /* Ensure left is not interfering */
+        border: none;
+        transform: none;
+    z-index: 1000;   
 }
+
 a{
     color: black;
     background-color: firebrick;
@@ -194,14 +203,13 @@ right: 40%;
 position: absolute;
 margin-top: 20%;
 scale: 3;
- font-family: 'Georgia', Times New Roman, Times, serif
+font-family: 'Georgia';
 }
 
 img {
  margin: 0;
   padding: 0;
   border: 0;
-  align-items: ;
   display: flex row;
 }
 .backround{
