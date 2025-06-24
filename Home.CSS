@@ -171,7 +171,8 @@ header{
         left: auto;     /* Ensure left is not interfering */
         border: none;
         transform: none;
-    z-index: 1000;   
+        z-index: 1000;   
+        
 }
 
 a{
