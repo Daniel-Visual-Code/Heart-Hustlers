@@ -17,9 +17,9 @@
 .research{
     position: center;
     margin-left: 300px;
-    margin-top: 1600px;
+    margin-top: 650px;
     background-color: rgb(255, 0, 0);
-    width: 700px;
+    width: 675px;
     padding: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -87,18 +87,28 @@ body{
     background-color: rgb(119, 16, 16);
     z-index: 1;
 }
+
+.video-title{
+    position: center;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
 .Play{
-  position: absolute;
-    top: 1060px;
-    left: 300px;
+  position: center;
+    margin-top: 800px;
+    margin-left: 50px;
     border: none;
     height: 460px;
     width: 720px;
     box-sizing: border-box;
   transition: transform 0.8s ease-in-out;
+  background-color: rgb(119, 16, 16);
   z-index: 3;
   overflow: hidden;
-  background-color: firebrick;
+  
 }
 
 video{
@@ -106,7 +116,7 @@ video{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    align-items: left;
+    align-items: center;
     border: none;
     z-index: 3;
 }
@@ -192,16 +202,16 @@ a:hover{
     top: 3900px;
 }
 .section{
-    position: absolute;
-    left: 40%;
+    position: center;
+    margin-right: 130px;
     scale: 3;
-    margin-top: 16%;
+    margin-top: 160px;
     font-family: 'Georgia', Times New Roman, Times, serif;
 }
 .section2{
-right: 40%;
-position: absolute;
-margin-top: 20%;
+margin-left: 130px;
+position: center;
+margin-top: 50px;
 scale: 3;
 font-family: 'Georgia';
 }
