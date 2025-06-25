@@ -2,7 +2,7 @@
     text-align: center;
     position:center;
     margin-left: 300px;
-    margin-top: 350px;
+    margin-top: 500px;
     background-color: rgb(255, 0, 0);
     padding: 10px;
     width: 700px;
@@ -154,11 +154,12 @@ body{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
+    margin-top: 0px;
 
 }
 .Play{
   position: center;
-    margin-top: 800px;
+    margin-top: 350px;
     margin-left: 50px;
     border: none;
     height: 460px;
@@ -265,7 +266,7 @@ a:hover{
     position: center;
     margin-right: 130px;
     scale: 3;
-    margin-top: 160px;
+    margin-top: -250px;
     font-family: 'Georgia', Times New Roman, Times, serif;
 }
 .section2{
@@ -289,36 +290,101 @@ img {
   width: 100%;
   transition: transform 0.3s ease;
 }
-.About{
+.about{
     list-style: none;
-    position: absolute;
-    top: 700%;
+    position: center;
+    width: 768px;
+    margin-left: 275px;
     display: flex;
     background-color: grey;
     border-radius: 10px;
-    color: rgb(201, 174, 55);
+    color: white;
+    margin-top: 75px;
 }
 .Daniel{
     text-align: center;
-    
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-left: 0px;
+    margin-right: 56px;
+    width: 150px;
+    height: 150px;
     
 }
+.linkedin-dan{
+    text-align: center;
+    color: black;
+    background-color: limegreen;
+    height: 40px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .Shreya{
     text-align: center;
-    margin-right: 65px;
-    margin-left: 65px;
+    margin-right: 56px;
+    margin-left: 0px;
+     width: 150px;
+    height: 150px;
+    
 }
+
+.linkedin-shr{
+    text-align: center;
+    color: black;
+    background-color: limegreen;
+    height: 40px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .Tyirell{
     text-align: center;
-    margin-right: 65px;
-    margin-left: 65px;
+    margin-right: 56px;
+    margin-left: 0px;
+      width: 150px;
+    height: 150px;
+    
 }
+
+.linkedin-tyi{
+    text-align: center;
+    color: black;
+    background-color: limegreen;
+    height: 40px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .Jamariyon{
     text-align: center;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.linkedin-jam{
+    text-align: center;
+    color: black;
+    background-color: limegreen;
+    height: 40px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .team-img {
@@ -328,10 +394,9 @@ img {
   height: 150px;
   object-fit: cover;
   border-radius: 15%;
-  border: 2px solid #c9ae37;
+  border: 2px solid white;
+
+    
 }
 
-.research {
-
-}
 
