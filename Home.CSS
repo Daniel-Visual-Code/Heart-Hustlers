@@ -173,7 +173,7 @@ header{
         
 }
 
-a{
+a{ 
     color: black;
     background-color: firebrick;
     padding: 8px;
@@ -218,6 +218,7 @@ img {
   width: 100%;
   transition: transform 0.3s ease;
 }
+
 .About{
     list-style: none;
     position: absolute;
@@ -257,6 +258,7 @@ img {
   object-fit: cover;
   border-radius: 15%;
   border: 2px solid #c9ae37;
+  overflow: hidden;
+  max-width: 100%;
 }
-
 
